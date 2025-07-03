@@ -1,11 +1,11 @@
 import SingelFrouts from "./SingelFrout";
-function frouts(){
-//    const animals =[
-//         {
-//             name : "Cat",
-//             emoji : "😺",
-//             price : "120"
-//         },
+function Frout(){
+   const frout =[
+        {
+            name : "Cat",
+            emoji : "😺",
+            price : "120"
+        },
 //         {
 //             name : "Dog",
 //             emoji : "🐶",
