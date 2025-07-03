@@ -1,4 +1,4 @@
-import SingelFrouts from "./SingelFrout";
+import SingelFrout from "./SingelFrout";
 function Frout(){
    const frout =[
         {
@@ -24,8 +24,8 @@ function Frout(){
     ]
     return(
         <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
-           {animals.map(SingelAnimal=>(
-                <SingelAnimal/>
+           {frout.map(SingelFrout=>(
+                <SingelFrout/>
             ))}
         </div>
     )
