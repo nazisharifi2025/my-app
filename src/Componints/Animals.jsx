@@ -1,5 +1,6 @@
+import SingelAnimal from "./SingelAnimal";
 function Animals(){
-   const Animals =[
+   const animals =[
         {
             name : "Cat",
             emoji : "😺",
@@ -23,7 +24,9 @@ function Animals(){
     ]
     return(
         <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
-
+            {animals.map(SingelAnimal=>(
+                <SingelAnimal/>
+            ))}
         </div>
     )
 }
