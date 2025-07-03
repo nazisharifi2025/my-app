@@ -22,7 +22,7 @@ function Animals(){
         },
     ]
     return(
-        <div className="h-screen bg-pink-400 text-white  w-full">
+        <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
 
         </div>
     )
