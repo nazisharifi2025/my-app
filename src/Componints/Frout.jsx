@@ -30,4 +30,4 @@ function Frout(){
         </div>
     )
 }
-export default Animals;
+export default Frout;
