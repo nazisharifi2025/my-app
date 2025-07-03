@@ -1,5 +1,5 @@
 function Animals(){
-    Animals =[
+   const Animals =[
         {
             name : "Cat",
             emoji : "😺",
@@ -22,9 +22,9 @@ function Animals(){
         },
     ]
     return(
-        <>
+        <div className="h-screen bg-pink-400 text-white  w-full">
 
-        </>
+        </div>
     )
 }
 export default Animals;
