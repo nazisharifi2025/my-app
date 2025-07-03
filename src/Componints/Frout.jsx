@@ -24,10 +24,10 @@ function Frout(){
     ]
     return(
         <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
-//             {animals.map(SingelAnimal=>(
-//                 <SingelAnimal/>
-//             ))}
-//         </div>
-//     )
-// }
-// export default Animals;
+           {animals.map(SingelAnimal=>(
+                <SingelAnimal/>
+            ))}
+        </div>
+    )
+}
+export default Animals;
