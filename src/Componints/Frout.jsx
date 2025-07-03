@@ -2,24 +2,24 @@ import SingelFrout from "./SingelFrout";
 function Frout(){
    const frout =[
         {
-            name : "Cat",
-            emoji : "😺",
+            name : "Apple",
+            emoji : "🍎",
             price : "120"
         },
         {
-            name : "Dog",
-            emoji : "🐶",
-            price : "2000"
+            name : "Bnana",
+            emoji : "🍌",
+            price : "200"
         },
         {
-            name : "Monky",
-            emoji : "🙊",
+            name : "mango",
+            emoji : "🥭",
             price : "190"
         },
         {
-            name : "Mouse",
-            emoji : "🐭",
-            price : "90"
+            name : "Oringe",
+            emoji : "🍊",
+            price : "190"
         },
     ]
     return(
