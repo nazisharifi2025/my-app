@@ -7,4 +7,4 @@ function SingelFrouts(){
         </div>
     )
 }
-// export default SingelFrouts;
+export default SingelFrouts;
