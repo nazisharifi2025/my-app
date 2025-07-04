@@ -28,6 +28,6 @@ function Animals(){
                 <SingelAnimal name={item.name} emoji={item.emoji} price={item.price}/>
             ))}
         </div>
-//     )
-// }
-// export default Animals;
+    )
+}
+export default Animals;
