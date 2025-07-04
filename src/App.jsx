@@ -1,11 +1,9 @@
 import Animals from "./Componints/Animals";
-import Frout from "./Componints/Frout";
 function App(){
   return(
-    <>
-    <Animals/>
-    <Frout/>
-    </>
+    <div className="w-full h-screen">
+      <Animals/>
+    </div>
   )
 }
 export default App;

@@ -24,7 +24,7 @@ function Frout(){
     ]
     return(
         <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
-           {frout.map(SingelFrout=>(
+           {frout.map(item=> (
                 <SingelFrout/>
             ))}
         </div>
