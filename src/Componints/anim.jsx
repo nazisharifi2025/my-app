@@ -16,11 +16,11 @@ function Animals(){
             emoji : "🙊",
             price : "190"
         },
-//         {
-//             name : "Mouse",
-//             emoji : "🐭",
-//             price : "90"
-//         },
+        {
+            name : "Mouse",
+            emoji : "🐭",
+            price : "90"
+        },
 //     ]
 //     return(
 //         <div className="h-screen bg-pink-400 justify-between px-3 text-white  flex items-center w-full">
