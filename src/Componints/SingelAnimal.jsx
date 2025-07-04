@@ -1,6 +1,6 @@
 function SingelAnimal(){
     return(
-        <div className="P-4 bg-white ">
+        <div className="P-4 bg-white shadow-md shadow-gray-700">
             <h1>🍎</h1>
             <h1>Apple</h1>
             <h1>180</h1>
