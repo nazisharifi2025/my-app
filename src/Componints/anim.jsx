@@ -1,11 +1,11 @@
 import SingelAnimal from "./SingelAnimal";
 function Animals(){
-//    const animals =[
-//         {
-//             name : "Cat",
-//             emoji : "😺",
-//             price : "120"
-//         },
+   const animals =[
+        {
+            name : "Cat",
+            emoji : "😺",
+            price : "120"
+        },
 //         {
 //             name : "Dog",
 //             emoji : "🐶",
