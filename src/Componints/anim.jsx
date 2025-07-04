@@ -6,11 +6,11 @@ function Animals(){
             emoji : "😺",
             price : "120"
         },
-//         {
-//             name : "Dog",
-//             emoji : "🐶",
-//             price : "2000"
-//         },
+        {
+            name : "Dog",
+            emoji : "🐶",
+            price : "2000"
+        },
 //         {
 //             name : "Monky",
 //             emoji : "🙊",
