@@ -23,9 +23,9 @@ function Animals(){
         },
     ]
     return(
-        <div className="h-screen bg-pink-400 text-white  flex justify-center items-center w-full">
+        <div className="h-screen bg-pink-400 justify-between px-3 text-white  flex items-center w-full">
             {animals.map(item=> (
-                <SingelAnimal/>
+                <SingelAnimal name={item.name} emoji={item.emoji} price={item.price}/>
             ))}
         </div>
     )
