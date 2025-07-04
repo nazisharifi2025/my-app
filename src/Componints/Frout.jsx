@@ -7,7 +7,7 @@ function Frout(){
             price : "120"
         },
         {
-            name : "Bnana",
+            name : "Banana",
             emoji : "🍌",
             price : "200"
         },
@@ -23,7 +23,7 @@ function Frout(){
         },
     ]
     return(
-        <div className="h-screen bg-pink-400 text-white  flex justify-center gap-7 items-center w-full">
+        <div className="h-screen bg-pink-400 text-white  flex justify-between px-4 gap-7 items-center w-full">
            {frout.map(item=> (
                 <SingelFrout name={item.name} emoji={item.emoji} price={item.price}/>
             ))}
