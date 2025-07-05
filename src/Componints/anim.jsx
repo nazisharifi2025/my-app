@@ -1,6 +1,6 @@
 function Anim(){
     return(
-        <div>
+        <div className="h-screen w-full">
 
         </div>
     )
