@@ -15,10 +15,20 @@ function Anima(){
             emoji : "🙊",
             price : "190"
         },
-       
+        {
+            name : "Mouse",
+            emoji : "🐭",
+            price : "90"
+        },
       
     ]
  
-    return ()
+    return (
+          <div className=" w-full">
+            {/* {animals.map(item=> (
+                <SingelAnimal name={item.name} emoji={item.emoji} price={item.price}/>
+            ))}
+        </div> */}
+    )
 }
 export default Anima
