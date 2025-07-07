@@ -5,6 +5,12 @@ function Anima(){
             emoji : "😺",
             price : "120"
         },
+          {
+            name : "Dog",
+            emoji : "🐶",
+            price : "2000"
+        },
+     
       
     ]
  
