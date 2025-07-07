@@ -24,7 +24,7 @@ function Anima(){
     ]
  
     return (
-          <div className=" w-full">
+          <div className=" w-full h-screen bg-pink-400 ">
             {/* {animals.map(item=> (
                 <SingelAnimal name={item.name} emoji={item.emoji} price={item.price}/>
             ))}
