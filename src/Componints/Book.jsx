@@ -24,7 +24,9 @@ export default function Book(){
     return (
        
         <div className="h-screen w-full bg-gray-400 flex justify-between flex-wrap font-bold">
-
+            {book.map(item=>(
+                <h1>hi there</h1>
+            ))}
         </div>
     )
 }
