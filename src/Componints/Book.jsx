@@ -4,7 +4,12 @@ export default function Book(){
             name,
             imgUrl,
             price,
-        }
+        },
+         {
+            name,
+            imgUrl,
+            price,
+        },
         ]
     return (
        
