@@ -16,9 +16,9 @@ export default function Book(){
             price : 150,
         },
          {
-            name,
+            name : "جنون",
             imgUrl,
-            price,
+            price : 100,
         },
         ]
     return (
