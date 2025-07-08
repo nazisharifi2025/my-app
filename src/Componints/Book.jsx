@@ -6,9 +6,9 @@ export default function Book(){
             price : 180
         },
          {
-            name,
+            name : "اثر مرکب",
             imgUrl,
-            price,
+            price : 200,
         },
          {
             name,
