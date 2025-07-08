@@ -15,6 +15,11 @@ export default function Book(){
             imgUrl,
             price,
         },
+         {
+            name,
+            imgUrl,
+            price,
+        },
         ]
     return (
        
