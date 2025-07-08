@@ -1,3 +1,5 @@
 export default function Bok(){
-    return
+    return(
+        <h1>hi there</h1>
+    )
 }
