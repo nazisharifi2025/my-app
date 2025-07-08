@@ -11,9 +11,9 @@ export default function Book(){
             price : 200,
         },
          {
-            name,
+            name : "قانون پنح ثانیه",
             imgUrl,
-            price,
+            price : 150,
         },
          {
             name,
