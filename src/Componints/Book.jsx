@@ -2,7 +2,7 @@ export default function Book(){
      const book =[
         {
             name : "بلندی های بادگیر",
-            imgUrl :,
+            imgUrl ,
             price : 180
         },
          {
