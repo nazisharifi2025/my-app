@@ -24,11 +24,11 @@ function Anima(){
     ]
  
     return (
-          <div className=" w-full h-screen bg-pink-400 justify-between px-3 text-white  flex items-center">
-            { {animals.map(item=> (
-               <SingelAnimal  name={item.name} emoji={item.emoji} price={item.price}/>
+          <div className="h-screen bg-pink-400 justify-between px-3 text-white  flex items-center w-full">
+            {animals.map(item=> (
+                <SingelAnimal name={item.name} emoji={item.emoji} price={item.price}/>
             ))}
-        </div> }
+        </div>
     )
 }
 export default Anima

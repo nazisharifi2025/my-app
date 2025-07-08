@@ -6,7 +6,7 @@ function App(){
   if (natiga==="Animals") {
      return(
     <div className="w-full  flex justify-center flex-col">
-      <Animals />
+      <Animals   />
     </div>
   )
   }
