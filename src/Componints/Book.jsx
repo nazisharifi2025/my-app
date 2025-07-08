@@ -1,9 +1,9 @@
 export default function Book(){
      const book =[
         {
-            name,
-            imgUrl,
-            price,
+            name : "بلندی های بادگیر",
+            imgUrl :,
+            price : 180
         },
          {
             name,
