@@ -1,5 +1,6 @@
 import Animals from "./Componints/Animals";
 import Frout from "./Componints/Frout";
+import Book from "./Componints/Book";
 function App(){
   let natiga = "Frout";
   // return natiga ==="Animal"? <Animals/> : <Frout/>
@@ -17,5 +18,6 @@ function App(){
     </div>
   )
    }
+   <Book/>
 }
 export default App;
