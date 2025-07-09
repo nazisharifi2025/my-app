@@ -26,7 +26,7 @@ export default function Book(){
        
         <div className="h-screen w-full bg-gray-400 flex justify-between flex-wrap font-bold">
             {book.map(item=>(
-                <Bok name ={book.name} imgUrl = {book.imgUrl}/>
+                <Bok name ={book.name} imgUrl = {book.imgUrl} price = {book.price}/>
             ))}
         </div>
     )
