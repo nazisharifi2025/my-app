@@ -1,7 +1,8 @@
 import bad from "./src/img/bad.jpg";
 import fran from "./src/img/fran.jpg";
 import bland from "./src/img/bland.jpg";
-import bad from "./src/img/bad.jpg";
+import talar from "./src/img/talar.jpg";
+import muhakima from "./src/img/muhakima.jpg";
 import Bok from "./Bok"
 export default function Book(){
      const book =[
