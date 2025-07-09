@@ -1,9 +1,9 @@
-import bad from "./src/img/bad.jpg";
-import fran from "./src/img/fran.jpg";
-import bland from "./src/img/bland.jpg";
-import talar from "./src/img/talar.jpg";
-import muhakima from "./src/img/muhakima.jpg";
-import salar from "./src/img/salar.jpg";
+import bad from "../img/bad.jpg";
+import fran from "../img/fran.jpg";
+import bland from "../img/bland.jpg";
+import talar from "../img/talar.jpg";
+import muhakima from "../img/muhakima.jpg";
+import salar from "../img/salar.jpg";
 import Bok from "./Bok"
 export default function Book(){
      const book =[
@@ -40,7 +40,7 @@ export default function Book(){
         ]
     return (
        
-        <div className="h-screen w-full bg-gray-400 flex justify-between flex-wrap font-bold">
+        <div className="h-screen w-full bg-gray-400 flex justify-between gap-6 overflow-y-scroll p-6 flex-wrap font-bold">
             {book.map(item=>(
                 <Bok name ={book.name} imgUrl = {book.imgUrl} price = {book.price}/>
             ))}
