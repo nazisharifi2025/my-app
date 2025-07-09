@@ -27,6 +27,16 @@ export default function Book(){
             imgUrl : talar,
             price : 100,
         },
+          {
+            name : "محاکمه",
+            imgUrl : muhakima,
+            price : 180,
+        },
+          {
+            name : "سالار",
+            imgUrl : salar,
+            price : 170,
+        },
         ]
     return (
        
