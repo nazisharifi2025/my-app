@@ -1,4 +1,7 @@
-import bad from "./src/img/bad.jpg"
+import bad from "./src/img/bad.jpg";
+import fran from "./src/img/fran.jpg";
+// import bad from "./src/img/bad.jpg";
+// import bad from "./src/img/bad.jpg";
 import Bok from "./Bok"
 export default function Book(){
      const book =[
