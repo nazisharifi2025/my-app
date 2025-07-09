@@ -9,22 +9,22 @@ export default function Book(){
      const book =[
         {
             name : "بلندی های بادگیر",
-            imgUrl ,
+            imgUrl : bland,
             price : 180
         },
          {
             name : "اثر مرکب",
-            imgUrl,
+            imgUrl : fran,
             price : 200,
         },
          {
             name : "قانون پنح ثانیه",
-            imgUrl,
+            imgUrl : bad,
             price : 150,
         },
          {
             name : "جنون",
-            imgUrl,
+            imgUrl : talar,
             price : 100,
         },
         ]
