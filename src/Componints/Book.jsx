@@ -3,6 +3,7 @@ import fran from "./src/img/fran.jpg";
 import bland from "./src/img/bland.jpg";
 import talar from "./src/img/talar.jpg";
 import muhakima from "./src/img/muhakima.jpg";
+import salar from "./src/img/salar.jpg";
 import Bok from "./Bok"
 export default function Book(){
      const book =[
