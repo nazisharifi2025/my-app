@@ -16,7 +16,9 @@ export default function Counter(){
             <button className="px-6 w-1/2 bg-red-500 text-white py-4 rounded-xl font-bold" onClick={Decrimint}>Dicreamint</button>
         </div>
         <div className="w-full flex justify-between">
-            <div></div>
+            <div className="w-[45%] flex flex-col gap-7">
+                <p></p>
+            </div>
         </div>
         </div>
     )
