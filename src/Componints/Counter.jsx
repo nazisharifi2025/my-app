@@ -17,7 +17,9 @@ export default function Counter(){
         </div>
         <div className="w-full flex justify-between">
             <div className="w-[45%] flex flex-col gap-7">
-                <p></p>
+                <p className="font-bold text-2xl bg-gray-300 w-full"></p>
+                <p className="font-bold text-2xl bg-gray-300 w-full"></p>
+
             </div>
         </div>
         </div>
