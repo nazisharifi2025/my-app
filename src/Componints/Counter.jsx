@@ -10,10 +10,13 @@ export default function Counter(){
     }
     return(
         <div className="w-full">
-            <h1 className="w-full bg-gray-300 flex justify-center items-center py-6 font-bold text-2xl">the number is : {countUp}</h1>
+            <h1 className="w-full bg-gray-300 flex justify-center items-center py-6 font-bold text-2xl">The number is : {countUp}</h1>
             <div className="flex justify-between w-full p-4 gap-7">
-            <button className="px-6 w-1/2 bg-green-500 text-white py-4 rounded-xl font-bold" onClick={Incermint}>Incermint</button>
-            <button className="px-6 w-1/2 bg-red-500 text-white py-4 rounded-xl font-bold" onClick={Decrimint}>ِDecrimint</button>
+            <button className="px-6 w-1/2 bg-green-500 text-white py-4 rounded-xl font-bold" onClick={Incermint}>Incearmint</button>
+            <button className="px-6 w-1/2 bg-red-500 text-white py-4 rounded-xl font-bold" onClick={Decrimint}>Dicreamint</button>
+        </div>
+        <div className="w-full flex justify-between">
+            <div></div>
         </div>
         </div>
     )
