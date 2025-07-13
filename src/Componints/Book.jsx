@@ -13,7 +13,7 @@ export default function Book(){
             price : 180
         },
          {
-            name : "فرانگشتان",
+            name : "فرانکنشتاین",
             imgUrl : fran,
             price : 200
         },
@@ -40,7 +40,7 @@ export default function Book(){
         ]
     return (
        
-        <div className="h-screen w-full bg-gray-400 flex justify-between gap-6 overflow-y-scroll p-6 flex-wrap font-bold">
+        <div className="h-screen w-full bg-gray-300 flex justify-between gap-6 overflow-y-scroll p-6 flex-wrap font-bold">
             {book.map(item=>(
                 <Bok name ={item.name} imgUrl = {item.imgUrl} price = {item.price}/>
             ))}
