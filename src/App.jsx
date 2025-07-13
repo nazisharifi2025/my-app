@@ -1,12 +1,20 @@
 import Animals from "./Componints/Animals";
 import Frout from "./Componints/Frout";
-import Book from "./Componints/Book";
+// import Book from "./Componints/Book";
+import Counter from "./Componints/Counter";
 function App(){
   let natiga = "Frout";
   // return natiga ==="Animal"? <Animals/> : <Frout/>
-    return(
-   <Book/>
-   )
+  // book
+  //   return(
+  //  <Book/>
+  //  )
+  //  counter
+  return(
+    <div>
+      <Counter/>
+    </div>
+  )
   // if (natiga==="Animals") {
   //    return(
   //   <div className="w-full  flex justify-center flex-col">
