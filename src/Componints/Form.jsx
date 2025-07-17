@@ -1,4 +1,7 @@
+import { useState } from "react"
+
 export default function(){
+    const [todo , settodo] = useState("");
     return(
         <div className="h-screen w-full bg-gray-600 flex justify-center items-center">
             <form >
