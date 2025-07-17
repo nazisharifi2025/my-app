@@ -2,6 +2,7 @@ import { useState } from "react"
 
 export default function(){
     const [todo , settodo] = useState("");
+    const [todos , settodos]= useState([]);
     function handelClick(e){
         e.preventDefault();
     }
