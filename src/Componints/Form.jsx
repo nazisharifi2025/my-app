@@ -5,6 +5,7 @@ export default function(){
     const [todos , settodos]= useState([]);
     function handelClick(e){
         e.preventDefault();
+        settodos([todo])
     }
     return(
         <div className="h-screen w-full bg-gray-600 flex justify-center items-center">
