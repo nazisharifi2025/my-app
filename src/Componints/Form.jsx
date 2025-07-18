@@ -15,7 +15,7 @@ export default function(){
             </form>
             {/* {console.log(todos)} */}
             {todos.map(item=>{
-                <h1>{item}</h1>
+                <h1 className="bg-white px-3">{item}</h1>
             })}
             {
                 console.log(todos)
