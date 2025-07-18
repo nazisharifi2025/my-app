@@ -17,6 +17,9 @@ export default function(){
             {todos.map(item=>{
                 <h1>{item}</h1>
             })}
+            {
+                console.log(todos)
+            }
         </div>
     )
 }
