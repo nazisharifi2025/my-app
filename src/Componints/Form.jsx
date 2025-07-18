@@ -14,7 +14,9 @@ export default function(){
                 <button className="p-4 border-2 border-l-0 bg-gray-300 font-bold rounded-md rounded-l-none">Save</button>
             </form>
             {/* {console.log(todos)} */}
-            {todos.map(item=>)}
+            {todos.map(item=>{
+                <h1>{item}</h1>
+            })}
         </div>
     )
 }
