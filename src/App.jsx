@@ -2,8 +2,8 @@ import Animals from "./Componints/Animals";
 import Frout from "./Componints/Frout";
 // import Book from "./Componints/Book";
 // import Counter from "./Componints/Counter";
-// import Form from "./Componints/Form";
-import TodoApp from "./Componints/TodoApp";
+import Form from "./Componints/Form";
+// import TodoApp from "./Componints/TodoApp";
 function App(){
   let natiga = "Frout";
   // return natiga ==="Animal"? <Animals/> : <Frout/>
@@ -15,8 +15,7 @@ function App(){
   return(
     <div>
       {/* <Counter/> */}
-      {/* <Form/> */}
-      <TodoApp/>
+      <Form/>
     </div>
   )
   // if (natiga==="Animals") {

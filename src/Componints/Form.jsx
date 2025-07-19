@@ -14,7 +14,7 @@ export default function(){
                 <button className="p-4 border-2 border-l-0 bg-gray-300 font-bold rounded-md rounded-l-none">Save</button>
             </form>
             {todos.map(item=>{
-                <h1 className="bg-white px-3 py-2 rounded-md text-2xl font-bold text-center mx-auto" key={item}>{item}</h1>
+               return <h1 className="bg-white px-3 py-2 rounded-md text-2xl font-bold text-center mx-auto" key={item}>{item}</h1>
             })}
             {
                 console.log(todos)
