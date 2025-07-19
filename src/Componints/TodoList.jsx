@@ -1,5 +1,5 @@
 export default function (){
     return(
-        <div className="h-screen w-full bg-gray-500 shadow-2xl shadow-gray-900 text-2xl text-center"></div>
+        <div className="h-20 flex w-full bg-gray-500 shadow-2xl shadow-gray-900 text-2xl text-center "></div>
     )
 }
