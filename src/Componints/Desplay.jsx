@@ -1,5 +1,5 @@
 export default function Desplay(){
     return(
-        <div className="w-full h-fit bg-amber-800 text-2xl text-white flex justify-between"></div>
+        <div className="w-full h-fit bg-amber-800 text-2xl text-white flex justify-between items-center font-bold"></div>
     )
 }
