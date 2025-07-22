@@ -7,7 +7,7 @@ export default function Ct (){
                         <div className="h-[90%] w-[90%] bg-gray-400 text-white flex justify-center items-center font-bold">
                             <div className="h-[90%] w-[90%] bg-sky-500 text-2xl text-white flex justify-center items-center font-bold">
                                 <div className="h-[90%] w-[90%] bg-fuchsia-700 text-white flex justify-center items-center font-bold">
-                                    <div className="h-[90%] w-[90%]"></div>
+                                    <div className="h-[90%] w-[90%] bg-gray-900 text-white"></div>
                                 </div>
                             </div>
                         </div>
