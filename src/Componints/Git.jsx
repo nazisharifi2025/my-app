@@ -1,6 +1,6 @@
 function Git(){
     return(
-        <div></div>
+        <div className="h-screen w-full"></div>
     )
 }
 export default Git;
