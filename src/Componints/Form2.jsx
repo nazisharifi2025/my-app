@@ -4,6 +4,7 @@ import Formf from "../assets/BookStor/Formf.jsx";
 import Todo from "../assets/BookStor/Todo.jsx";
 export default function(){
     const [todos , settodos]= useState([]);
+    todos.
     return(
         <div className="h-screen w-full flex flex-col justify-center items-center">
             <Formf todos = {todos} settodos= {settodos}/>
