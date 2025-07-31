@@ -1,4 +1,4 @@
-export default function Todo(){
+export default function Todo({todos}){
     return(
         <div>
         {todos.map(item=>{

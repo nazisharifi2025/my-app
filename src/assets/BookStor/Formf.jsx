@@ -1,7 +1,6 @@
 import { useState } from "react";
-export default function Formf(){
+export default function Formf({todos,settodos }){
     const [todo , settodo] = useState("");
-    const [todos , settodos]= useState([]);
      function handelClick(e){
         e.preventDefault();
         settodos([...todos, todo ])
