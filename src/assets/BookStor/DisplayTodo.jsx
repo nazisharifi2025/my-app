@@ -1,3 +1,4 @@
+import Desplay from "../../Componints/Desplay"
 export default function DisplayTodo(){
     return(
         <div className="h-fit w-full flex flex-col justify-center my-12 items-center ">
@@ -8,6 +9,7 @@ export default function DisplayTodo(){
                 </div>
                 <h1 className="text-2xl">🗑️</h1>
             </div>
+            <Desplay/>
         </div>
     )
 }
