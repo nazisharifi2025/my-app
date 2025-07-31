@@ -3,7 +3,7 @@ import DisplayTodo from "../assets/BookStor/DisplayTodo";
 import Formf from "../assets/BookStor/Formf.jsx";
 export default function(){
     
-    const [todos , settodos]= useState([]);
+    
     return(
         <div className="h-screen w-full flex flex-col justify-center items-center">
             <Formf/>
