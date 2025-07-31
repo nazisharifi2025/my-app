@@ -14,8 +14,8 @@ export default function DisplayTodo({todo,settodos,items}){
                     <input type="checkbox"  onClick ={()=>hanelClick(todo.todo)} checked={todo.done} className="form-control h-4 w-4 " />
                     <h1 className="font-bold text-2xl">{todo.todo}</h1>
                 </div>
-                <h1 className="text-2xl">🗑️</h1>
-            </div>
+                <h1 onClick={handelDelete} className="text-2xl">🗑️</h1>
+            </div> 
            
         </div>
     )
