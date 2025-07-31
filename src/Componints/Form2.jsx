@@ -8,7 +8,7 @@ export default function(){
       return  item.done === true ;
     })
     return(
-        <div className="h-screen w-full flex flex-col justify-center items-center">
+        <div className="h-screen w-full flex flex-col items-center my-7">
             <Formf todos = {todos} settodos= {settodos}/>
             <Todo todos = {todos} settodos={settodos} />
             {/* <Desplay/> */}

@@ -14,7 +14,7 @@ export default function DisplayTodo({todo,settodos,items}){
       settodos(newArray);
     }
     return(
-            <div className="w-[40%] h-fit flex my-12 gap-24 justify-between">
+            <div className="w-[35%] h-fit flex my-12 gap-24 justify-between">
                 <div className="flex gap-4">
                     <input type="checkbox"  onClick ={()=>hanelClick(todo.todo)} checked={todo.done} className="form-control h-4 w-4 " />
                     <h1 className="font-bold text-2xl">{todo.todo}</h1>
