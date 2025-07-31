@@ -1,7 +1,7 @@
 
-export default function DisplayTodo(props){
+export default function DisplayTodo({todos,settodos,items}){
     function hanelClick(name){
-        props. 
+          
     }
     return(
         <div className="h-fit w-full flex flex-col justify-center my-12 items-center ">
