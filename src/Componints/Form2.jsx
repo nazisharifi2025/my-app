@@ -7,7 +7,7 @@ export default function(){
     return(
         <div className="h-screen w-full flex flex-col justify-center items-center">
             <Formf todos = {todos} settodos= {settodos}/>
-            <Todo todos = {todos} settodo={settodos} />
+            <Todo todos = {todos} settodos={settodos} />
             {/* <Desplay/> */}
                 <div className="w-full absolute bottom-0 left-0 h-fit bg-gray-400 text-2xl px-2 right-0 text-white flex justify-between items-center font-bold">
              <div className="font-bold text-center">ALL Tasks {todos.length}</div>
