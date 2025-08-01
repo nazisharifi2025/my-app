@@ -14,12 +14,14 @@ export default function DisplayTodo({todo,settodos,items}){
       settodos(newArray);
     }
     return(
-            <div className="w-[35%] h-fit flex my-12 gap-24 justify-between">
-                <div className="flex gap-4">
+            <div className="w-[35%] h-fit flex mt-6 shadow-md shadow-gray-900 py-4 px-6 gap-24 mx-auto justify-between">
+                <div className="flex gap-4 items-center">
                     <input type="checkbox"  onClick ={()=>hanelClick(todo.todo)} checked={todo.done} className="form-control h-4 w-4 " />
                     <h1 className="font-bold text-2xl">{todo.todo}</h1>
                 </div>
-                <h1 onClick={()=>handelDelete(todo.todo)} className="text-2xl">🗑️</h1>
+                <h1 onClick={()=>handelDelete(todo.todo)} className="text-2xl"><span class="material-symbols-outlined">
+delete
+</span></h1>
             </div> 
     )
 }
