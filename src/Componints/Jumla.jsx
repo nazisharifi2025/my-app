@@ -1,3 +1,3 @@
-export do {
+export default function(){
     
-} while (ssss);
+}
