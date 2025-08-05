@@ -8,7 +8,7 @@ export default function Login(){
                 </div>
                 <div>
                     {/* <label htmlFor="">User Name</label> */}
-                <input type="text" placeholder="Inter User name"  className="border rounded-2xl " />
+                <input type="text" placeholder="Inter User name"  className="border rounded-2xl py-2 px-8" />
                 </div>
             </form>
         </div>
