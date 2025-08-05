@@ -14,8 +14,8 @@ export default function DisplayTodo({todo,settodos,items}){
       settodos(newArray);
     }
     return(
-        <div className="w-[35%] h-fit flex flex-col  mt-6 shadow-md shadow-gray-900">
-            <img src={todo.img} alt="" />
+        <div className="w-[25%] h-[410px] p-2 flex flex-col justify-center items-center  mt-6 shadow-md shadow-gray-900">
+            <img src={todo.img} alt="" className="h-[250px] w-[70%]" />
             <div className=" py-4 px-6 flex gap-24 mx-auto justify-between">
                 <div className="flex gap-4 items-center">
                     <input type="checkbox"  onClick ={()=>hanelClick(todo.todo)} checked={todo.done} className="form-control h-4 w-4 " />
