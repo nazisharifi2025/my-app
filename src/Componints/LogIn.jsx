@@ -8,6 +8,7 @@ export default function LogIn(){
                 <h1 class="">FOrget your password?</h1>
                 <h1 class="">Creat new acount</h1>
             </div>
+            <button>Send</button>
         </div>
     )
 }
