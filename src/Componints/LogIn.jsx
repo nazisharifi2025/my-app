@@ -5,7 +5,7 @@ export default function LogIn(){
             <input type="text" class="py-2 px-4 w-full bg-gray-300 shadow-md shadow-black" />
             <input type="text"  class="py-2 px-4 w-full bg-gray-300 shadow-md shadow-black"/>
             <div class="font-bold text-xl flex items-center">
-
+                <h1>FOrget your password?</h1>
             </div>
         </div>
     )
