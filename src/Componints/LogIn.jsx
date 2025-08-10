@@ -1,6 +1,6 @@
 export default function LogIn(){
     return(
-        <div class="h-[80%] w-40% mx-auto border border-gray-400 rounded-2xl flex flex-col gap-2.5">
+        <div class="h-[80%] w-40% mx-auto border border-gray-400 rounded-2xl flex flex-col gap-2.5 ">
         
         </div>
     )
