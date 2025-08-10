@@ -1,5 +1,7 @@
 export default function LogIn(){
     return(
-        <div></div>
+        <div class="h-[80%] w-40% mx-auto">
+        
+        </div>
     )
 }
